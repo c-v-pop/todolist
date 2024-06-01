@@ -1,5 +1,3 @@
-Sure, here's the revised project description without the license section:
-
 ### Project Description: Building a To-Do List App for Mobile Devices
 
 #### Overview:

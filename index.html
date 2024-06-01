@@ -6,12 +6,17 @@
     <title>Shopping Helper</title>
     <link href="./dist/styles.css" rel="stylesheet">
 </head>
-<body>
-    <nav>
-        <div>To-Do List</div>
+<body class="flex flex-col justify-center">
+    <nav class="flex justify-center">
+        <div>To Do List</div>
     </nav>
-    <input type="text" id="input-field">
-    <button id="add-button">Add to cart</button>
-    <script src="index.js"></script>
+    <div class="flex justify-center flex-col mx-5">
+    <input type="text" id="input-field" class="bg-blue-400">
+    <button id="add-button" class="bg-red-200" type="submit">Add task</button>
+</div>
+<ul class="flex justify-center">
+    <li>This is my task</li>
+</ul>
+<script src="index.js"></script>
 </body>
 </html>

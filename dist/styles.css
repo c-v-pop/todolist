@@ -586,3 +586,11 @@ video {
   padding: 0;
   margin: 0;
 }
+
+body {
+  background-image: url(./images/2YT\ Post.png);
+  background-size: cover;
+  /* Optional: Ensures the image covers the entire background */
+  background-position: center;
+  /* Optional: Centers the background image */
+}

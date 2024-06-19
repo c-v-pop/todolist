@@ -4,19 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Helper</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="./dist/styles.css" rel="stylesheet">
 </head>
-<body class="flex flex-col justify-center">
-    <nav class="flex justify-center">
-        <div>To Do List</div>
+<body class="bg-orange-700 h-full">    
+    <nav class="text-center m-6 text-white font-bold">
+        <h1>Perk Randomizeer</h1>
     </nav>
-    <div class="flex justify-center flex-col mx-5">
-    <input type="text" id="input-field" class="bg-blue-400">
-    <button id="add-button" class="bg-red-200" type="submit">Add task</button>
-</div>
-<ul class="flex justify-center">
-    <li>This is my task</li>
-</ul>
-<script src="index.js"></script>
+    <div class="flex justify-center items-center gap-8 my-60">
+        <div class="flex">
+        <div class="perk-card-container flex justify-center items-center flex-col">
+            <h2>Perk number</h2>
+            <img src="./src/images/iconPerks_vigil.png" alt="random-perk">
+            <p>Perk Name</p>
+            <p>Perk Description</p>
+        </div>
+        <div class="perk-card-container flex justify-center items-center flex-col">
+            <h2>Perk number</h2>
+            <img src="./src/images/iconPerks_vigil.png" alt="random-perk">
+            <p>Perk Name</p>
+            <p>Perk Description</p>
+        </div>
+    </div>
+    <span class="items-center justify-center">
+        <button>Randomize</button>
+    </span>
+    <div class="flex justify-center items-center gap-8 my-60">
+        
+        <div class="flex">
+        <div class="perk-card-container flex justify-center items-center flex-col">
+            <h2>Perk number</h2>
+            <img src="./src/images/iconPerks_vigil.png" alt="random-perk">
+            <p>Perk Name</p>
+            <p>Perk Description</p>
+        </div>
+        <div class="perk-card-container flex justify-center items-center flex-col">
+            <h2>Perk number</h2>
+            <img src="./src/images/iconPerks_vigil.png" alt="random-perk">
+            <p>Perk Name</p>
+            <p>Perk Description</p>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
